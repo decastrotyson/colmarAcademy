@@ -1,0 +1,59 @@
+html, body {
+    font-family:'Trebuchet MS', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+nav {
+    display: inline;
+    align-items: center;
+    height: 64px;
+}
+
+nav .left {
+    display: inline;
+    float: left;
+    margin-left: 24px;
+}
+
+nav .left img {
+    display: inline;
+    height: 32px;
+    margin: auto;
+}
+
+nav .left p{
+    display: inline-block;
+    font-size: 24px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+nav strong {
+    color: black;
+}
+
+nav .right {
+    float: right;
+    border: none;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+nav .right p {
+    display: inline;
+    padding-right: 16px;
+}
+
+.learn {
+    background-color: gray;
+    border: none;
+}
+
+.learn img {
+    display: inline;
+    max-width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
